@@ -1,41 +1,23 @@
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Horario.Domain.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Horario.Domain.pdb
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Helpers.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Mvc.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Razor.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Razor.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Helpers.xml
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Mvc.xml
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Razor.xml
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.xml
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\obj\Debug\Horario.Domain.csprojResolveAssemblyReference.cache
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\obj\Debug\Horario.Domain.dll
-c:\users\sofia carolina\documents\visual studio 2015\Projects\Horario\Horario.Domain\obj\Debug\Horario.Domain.pdb
-C:\Horario\Horario\Horario.Domain\obj\Debug\Horario.Domain.csprojResolveAssemblyReference.cache
-C:\Horario\Horario\Horario.Domain\obj\Debug\Horario.Domain.dll
-C:\Horario\Horario\Horario.Domain\obj\Debug\Horario.Domain.pdb
-C:\Horario\Horario\Horario.Domain\bin\Debug\Horario.Domain.dll.config
-C:\Horario\Horario\Horario.Domain\bin\Debug\Horario.Domain.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\Horario.Domain.pdb
-C:\Horario\Horario\Horario.Domain\bin\Debug\EntityFramework.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\EntityFramework.SqlServer.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.Helpers.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.Mvc.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.Razor.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Horario\Horario\Horario.Domain\bin\Debug\EntityFramework.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\EntityFramework.SqlServer.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.Helpers.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.Mvc.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.Razor.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Horario\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Horario.Domain.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Horario.Domain.pdb
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Helpers.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Mvc.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Razor.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Helpers.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Mvc.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.Razor.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\obj\Debug\Horario.Domain.csprojResolveAssemblyReference.cache
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\obj\Debug\Horario.Domain.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\obj\Debug\Horario.Domain.pdb
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\Horario.Domain.dll.config
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\EntityFramework.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\EntityFramework.xml
+c:\users\alberto flores\documents\visual studio 2015\Projects\Horario\Horario.Domain\bin\Debug\EntityFramework.SqlServer.xml

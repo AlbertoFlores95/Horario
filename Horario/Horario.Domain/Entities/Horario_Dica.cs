@@ -19,6 +19,6 @@ namespace Horario.Domain.Entities
         public System.TimeSpan HoraInicio { get; set; }
         public System.TimeSpan HoraFin { get; set; }
     
-        public virtual Profesor Profesor { get; set; }
+        public virtual Dica Dica { get; set; }
     }
 }

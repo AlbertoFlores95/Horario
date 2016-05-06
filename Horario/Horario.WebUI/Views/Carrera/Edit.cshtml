@@ -1,0 +1,28 @@
+﻿@model Horario.Domain.Entities.Carrera
+@{
+    ViewBag.Title = "Edit " + Model.Carrera_Nombre;
+    Layout = "~/Views/Shared/_CarrerasLayout.cshtml";
+}
+
+
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Editar @Model.Carrera_Nombre</h3>
+    </div>
+
+    @using (Html.BeginForm("Edit", "Carrera"))
+    {
+        <div class="panel-body">
+
+            @Html.TextArea("Siglas", null, new { @class = "form-control" })
+            @Html.TextArea("NombreLargo", null, new { @class = "form-control", rows = 5 })
+
+        </div>
+        <div class="panel-footer">
+            <input type="submit" value="Save" class="btn btn-primary" />
+            @Html.ActionLink("Cancelar y regresar a carreras", "Index", null, new { @class = "btn btn-default" })
+        </div>
+
+    }
+
+</div>

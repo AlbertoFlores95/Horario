@@ -20,11 +20,12 @@ namespace Horario.Domain.Entities
             this.Citas = new HashSet<Cita>();
         }
     
-        public string Correo { get; set; }
+        public string Matricula { get; set; }
         public string Nombre { get; set; }
         public string Apellido_Paterno { get; set; }
         public string Apellido_Materno { get; set; }
         public string Carrera { get; set; }
+        public string Correo { get; set; }
     
         public virtual Carrera Carrera1 { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

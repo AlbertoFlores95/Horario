@@ -17,25 +17,24 @@ namespace Horario.Domain.Entities
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Cita()
         {
-            this.Citas_ComDica = new HashSet<Citas_ComDica>();
-            this.Com_Visitante = new HashSet<Com_Visitante>();
+            this.Cita_Comentario_Dica = new HashSet<Cita_Comentario_Dica>();
+            this.Cita_Comentario_Visitante = new HashSet<Cita_Comentario_Visitante>();
         }
     
-        public string Folio { get; set; }
+        public int Folio { get; set; }
         public string Correo { get; set; }
         public string Nomina { get; set; }
         public System.DateTime Dia { get; set; }
         public System.TimeSpan HoraInicio { get; set; }
         public System.TimeSpan HoraFin { get; set; }
         public string Estatus { get; set; }
-        public string Asunto_As { get; set; }
+        public string Asunto { get; set; }
     
         public virtual Alumno Alumno { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Citas_ComDica> Citas_ComDica { get; set; }
-        public virtual Profesor Profesor { get; set; }
-        public virtual Visitante_Externo Visitante_Externo { get; set; }
+        public virtual ICollection<Cita_Comentario_Dica> Cita_Comentario_Dica { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Com_Visitante> Com_Visitante { get; set; }
+        public virtual ICollection<Cita_Comentario_Visitante> Cita_Comentario_Visitante { get; set; }
+        public virtual Dica Dica { get; set; }
     }
 }

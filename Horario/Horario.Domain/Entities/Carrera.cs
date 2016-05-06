@@ -26,5 +26,6 @@ namespace Horario.Domain.Entities
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Alumno> Alumnoes { get; set; }
+        public virtual Dica Dica { get; set; }
     }
 }

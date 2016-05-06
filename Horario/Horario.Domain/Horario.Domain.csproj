@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE176C39-7F76-4DE8-A2C6-3E8CACE93467}</ProjectGuid>
+    <ProjectGuid>{4781FFBD-25A4-436A-ABEE-37BC4C6B0159}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Horario.Domain</RootNamespace>
@@ -79,79 +79,86 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IProfesorRepository.cs" />
-    <Compile Include="Concrete\EFProfesorRepository.cs" />
+    <Compile Include="Abstract\ICarreraRepository.cs" />
+    <Compile Include="Abstract\IDicaRepository.cs" />
+    <Compile Include="Concrete\EFCarreraRepository.cs" />
+    <Compile Include="Concrete\EFDicaRepository.cs" />
     <Compile Include="Entities\Alumno.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\Carrera.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\Cita.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Citas_ComDica.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+    <Compile Include="Entities\Cita_Comentario_Dica.cs">
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Com_Visitante.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+    <Compile Include="Entities\Cita_Comentario_Visitante.cs">
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\DBHorario.Context.cs">
+    <Compile Include="Entities\Classes\Metadata.cs" />
+    <Compile Include="Entities\Classes\PartialClasses.cs" />
+    <Compile Include="Entities\DBEHorario.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBHorario.Context.tt</DependentUpon>
+      <DependentUpon>DBEHorario.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\DBHorario.cs">
+    <Compile Include="Entities\DBEHorario.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBHorario.tt</DependentUpon>
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\DBHorario.Designer.cs">
+    <Compile Include="Entities\DBEHorario.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>DBHorario.edmx</DependentUpon>
+      <DependentUpon>DBEHorario.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\Dica.cs">
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\Horario_Dica.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\Profesor.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+    <Compile Include="Entities\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>DBEHorario.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Entities\sp_helpdiagrams_Result.cs">
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\sysdiagram.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entities\Visitante_Externo.cs">
-      <DependentUpon>DBHorario.tt</DependentUpon>
+      <DependentUpon>DBEHorario.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EntityDeploy Include="Entities\DBHorario.edmx">
+    <EntityDeploy Include="Entities\DBEHorario.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>DBHorario.Designer.cs</LastGenOutput>
+      <LastGenOutput>DBEHorario.Designer.cs</LastGenOutput>
     </EntityDeploy>
     <None Include="App.Config" />
-    <None Include="Entities\DBHorario.edmx.diagram">
-      <DependentUpon>DBHorario.edmx</DependentUpon>
+    <None Include="Entities\DBEHorario.edmx.diagram">
+      <DependentUpon>DBEHorario.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Content Include="Entities\DBHorario.Context.tt">
+    <Content Include="Entities\DBEHorario.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBHorario.edmx</DependentUpon>
-      <LastGenOutput>DBHorario.Context.cs</LastGenOutput>
+      <DependentUpon>DBEHorario.edmx</DependentUpon>
+      <LastGenOutput>DBEHorario.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Entities\DBHorario.tt">
+    <Content Include="Entities\DBEHorario.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>DBHorario.edmx</DependentUpon>
-      <LastGenOutput>DBHorario.cs</LastGenOutput>
+      <DependentUpon>DBEHorario.edmx</DependentUpon>
+      <LastGenOutput>DBEHorario.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

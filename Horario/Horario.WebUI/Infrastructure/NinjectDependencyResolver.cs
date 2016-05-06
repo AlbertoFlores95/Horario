@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Web.Mvc;
 using Ninject;
+using Horario.Domain.Abstract;
+using Horario.Domain.Concrete;
+
 
 namespace Horario.WebUI.Infrastructure
 {
@@ -28,7 +31,8 @@ namespace Horario.WebUI.Infrastructure
 
         private void AddBindings()
         {
-            //////////////aquí volveremos a cada rato
+            kernel.Bind<IProfesorRepository>().To<EFProfesorRepository>();
+           
         }
 
 

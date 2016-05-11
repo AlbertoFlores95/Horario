@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1 style="text-align:center;">Proyecto final</h1>
+    <p class="lead"  style="text-align:center;">Integrantes: <br />
+                    Alberto Flores <br />
+                    Fernando Narvaez <br />
+                    Antonio Ortega<br />
+                    Sofia Terrazas</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <div>
+            @Html.ActionLink("Lista de Dicas","Index","Dicas")<br />
+            @Html.ActionLink("Lista de Citas", "Index", "Citas")<br />
+            @Html.ActionLink("Lista de Alumnos", "Index", "Alumnoes")<br />
+            @Html.ActionLink("Lista de Carreras", "Index", "Carreras")<br />
+            @Html.ActionLink("Lista de Comentarios a Dicas", "Index", "Cita_Comentario_Dica")<br />        
+            @Html.ActionLink("Lista de Horarios", "Index", "Horario_Dica")<br />
+            @Html.ActionLink("Lista de Comentarios de los visitantes", "Index", "Cita_Comentario_Visitante")<br />
+        </div>
+</div>

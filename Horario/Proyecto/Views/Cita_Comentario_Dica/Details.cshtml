@@ -1,0 +1,26 @@
+﻿@model Proyecto.Models.Cita_Comentario_Dica
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Cita_Comentario_Dica</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cita.Correo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cita.Correo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

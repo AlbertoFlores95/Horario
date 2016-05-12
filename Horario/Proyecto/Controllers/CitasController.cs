@@ -56,9 +56,21 @@ namespace Proyecto.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Citas.Add(cita);
-                db.SaveChanges();
-                return RedirectToAction("Index");
+                var citasDia = db.Citas.Where(c => c.Dia == cita.Dia);
+                var citasDicas = citasDia.Where(c => c.Nomina == c.Nomina);
+                if (!(citasDicas.Where(c => c.HoraInicio == cita.HoraInicio).Any()|| citasDicas.Where(c=> c.HoraInicio < cita.HoraInicio && c.HoraFin > cita.HoraInicio).Any()))
+                {
+                    db.Citas.Add(cita);
+                    db.SaveChanges();
+                    return RedirectToAction("Index");
+                }
+                else
+                {
+                    ViewBag.Error = "Error ya hay una cita para ese dia con ese DICA";
+                    ViewBag.Correo = new SelectList(db.Alumnoes, "Correo", "Matricula", cita.Correo);
+                    ViewBag.Nomina = new SelectList(db.Dicas, "Nomina", "Nombre", cita.Nomina);
+                    return View(cita);
+                }
             }
             
 

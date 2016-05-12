@@ -1,0 +1,25 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div>
+    @model IEnumerable<Proyecto.Models.Cita>
+    @{
+        ViewBag.Title = "Horar";
+    }
+    <h2>Horar</h2>
+    @foreach (var m in Model)
+    {
+        <h2>Model.Nomina</h2>
+    }
+    </div>
+</body>
+</html>
